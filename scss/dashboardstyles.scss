@@ -1633,6 +1633,9 @@ body.pixel-dashboard{
                 font-size: 12px;
                 font-weight: 500;
                 color: $p-color;
+                @media(max-width:500px){
+                  margin-bottom: 0;
+                }
               }
             }
             .pixel-quotation-number, .pixel-delivery-type, .pixel-valid-date, .pixel-shipping, .pixel-payment{
@@ -1643,7 +1646,11 @@ body.pixel-dashboard{
               @media(max-width:767px){
                 width: 50%;
               }
+              @media(max-width:500px){
+                width: 100%;
+              }
             }
+
           }
           .pixel-quotation-item{
             .pixel-ordered-listitem{
@@ -1874,3 +1881,6 @@ body.pixel-dashboard{
   
   }
 }
+
+@import "arabicstyles";
+
