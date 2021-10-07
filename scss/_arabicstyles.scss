@@ -1,1 +1,75 @@
 // arbic version style start
+body.pixel-arabic{
+    text-align: right;
+    &.pixel-dashboard aside{
+        left: auto;
+        right: 0;
+        .pixel-logo{
+            justify-content: flex-end;
+        }
+    }
+    .pixel-content-area{
+        margin-left: 0px;
+        margin-right: 80px;
+        .pixel-top-head .profile .profile-icon{
+            margin-left: 0px;
+            margin-right: 24px;
+            .profile-name{
+                margin-left: 0px;
+                margin-right: 8px;
+            }
+      }
+
+        .pixel-total-bar .pixel-total-order .pixel-order-count .pixel-increase,   .pixel-total-bar .pixel-sample-order .pixel-order-count .pixel-increase,   .pixel-total-bar .pixel-promotional-order .pixel-order-count .pixel-increase{
+            margin-left: 0;
+            margin-right: 24px;
+        }
+        .pixel-total-bar .pixel-sample-order,   .pixel-total-bar .pixel-promotional-order{
+        padding-left: 0px;
+        padding-right: 24px;
+        border-left: 0;
+        border-right: 1px solid #EDEFEF;
+        }
+        .pixel-total-bar .pixel-last-loign span{
+        text-align: left;
+       }
+       .pixel-order-table .pixel-table-content .pixel-tab-pane .pixel-row .pixel-width .pixel-main-table .pixel-datatable table tbody tr td:last-of-type{
+        padding-right: 0;
+        padding-left: 32px;
+      }
+      .pixel-order-table .pixel-table-content .pixel-tab-pane .pixel-row .pixel-width .pixel-main-table .pixel-datatable table tbody tr td:first-of-type{
+        padding-right: 32px;
+        padding-left: 0px;
+      }
+      .pixel-order-table .pixel-table-content .pixel-tab-pane .pixel-row .pixel-width .pixel-main-table .pixel-datatable table thead tr th{
+        text-align: right;
+     }
+     .pixel-order-table .pixel-table-content .pixel-tab-pane .pixel-row .pixel-width .pixel-main-table .pixel-datatable table thead tr th:first-of-type{
+        padding-left: 0;
+        padding-right: 24px;
+     }
+     .pixel-order-table .pixel-srch-filter .pixel-search-box .pixel-search{
+        padding-left: 0;
+        padding-right: 44px;
+        background-position-x: 98% !important;
+    }
+     .pixel-order-table .head-tabs .pixel-export{
+         float: left !important;
+     }
+     .pixel-order-table .head-tabs ul.pixel-order-tabs{
+         display: inline-flex !important;
+     }
+      .pixel-order-table .head-tabs ul.pixel-order-tabs li{
+          margin-right: 0;
+        margin-left: 48px;
+      }
+    }
+    @media (max-width:575px) {
+    .pixel-content-area{
+    margin-right: 0;
+    }
+    .pixel-order-table .head-tabs ul.pixel-order-tabs{
+        flex-flow: column;
+    }   
+    }
+}
